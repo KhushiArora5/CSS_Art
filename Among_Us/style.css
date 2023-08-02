@@ -129,13 +129,13 @@ body {
     transform: rotate(2deg);
 }
 
-.shadow{
-   height: 40px; 
-   width: 210px;
-   background-color: #99820033;
-   position: absolute;
-   bottom: -60px;
-   right: -40px;
-   border-radius: 50%;
-   z-index: 0;
+.shadow {
+    height: 40px;
+    width: 210px;
+    background-color: #99820033;
+    position: absolute;
+    bottom: -60px;
+    right: -40px;
+    border-radius: 50%;
+    z-index: 0;
 }

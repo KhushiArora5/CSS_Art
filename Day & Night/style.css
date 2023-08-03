@@ -202,12 +202,12 @@ body {
     border-radius: 50%;
 }
 
-.glow::before{
+.glow::before {
     left: -9.3em;
     top: -3.1em;
 }
 
-.glow::after{
+.glow::after {
     right: -5.6em;
     top: -0.8em;
 }
@@ -290,8 +290,8 @@ body {
     }
 }
 
-@media screen and (min-width: 600px){
-    .container{
+@media screen and (min-width: 600px) {
+    .container {
         font-size: 20px;
     }
 }

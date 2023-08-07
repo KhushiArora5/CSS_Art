@@ -70,7 +70,7 @@ p.letter {
     position: absolute;
     top: -5.2em;
     left: -5.2em;
-    animation: spin 9s infinite forwards;
+    animation: spin 9s infinite linear;
 }
 
 @keyframes spin {

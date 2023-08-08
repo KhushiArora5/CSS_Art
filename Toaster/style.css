@@ -1,0 +1,280 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #ffe066;
+}
+
+.container {
+    width: 350px;
+    height: 510px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.toaster {
+    background-color: #5abff2;
+    height: 90px;
+    width: 120px;
+    position: relative;
+    top: 210px;
+    left: 125px;
+    border-radius: 20px 25px 0 0;
+}
+
+.cover {
+    background-color: #99ddff;
+    height: 90px;
+    width: 120px;
+    position: relative;
+    right: 30px;
+    border-radius: 20px 25px 0 0;
+}
+
+.b1,
+.b2 {
+    background-color: #737373;
+    height: 12px;
+    width: 12px;
+    position: relative;
+    border-radius: 50%;
+}
+
+.b1 {
+    top: 20px;
+    left: 50px;
+}
+
+.b2 {
+    top: 25px;
+    left: 50px;
+}
+
+.b3 {
+    background-color: #5abff2;
+    width: 16px;
+    height: 16px;
+    position: relative;
+    border-radius: 50%;
+    border: 2px solid white;
+    top: 30px;
+    left: 46.5px;
+}
+
+.shine {
+    background-color: #e6f7ff;
+    height: 24px;
+    width: 15px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 35px;
+    left: 7px;
+    transform: rotate(30deg);
+}
+
+.slot1 {
+    background-color: #666666;
+    width: 8px;
+    height: 43px;
+    border-radius: 15px;
+    position: relative;
+    bottom: 65px;
+    left: 101px;
+}
+
+.slot2 {
+    background-color: #333333;
+    width: 5px;
+    height: 41px;
+    border-radius: 15px;
+    position: relative;
+    bottom: 107px;
+    left: 101px;
+}
+
+.handle1 {
+    background-color: white;
+    height: 5px;
+    width: 20px;
+    position: relative;
+    left: 0.1px;
+    top: 1.7px;
+    animation: move 4s infinite;
+}
+
+@keyframes move{
+    50%{
+        transform: translateY(25px);
+    }
+}
+
+.handle2 {
+    background-color: #666666;
+    height: 10px;
+    width: 18px;
+    position: relative;
+    bottom: 2.5px;
+    left: 7.5px;
+    border-radius: 5px;
+}
+
+.handle3 {
+    background-color: #333333;
+    width: 8px;
+    height: 9.5px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 12px;
+    left: 17px;
+}
+
+.base1 {
+    background-color: #666666;
+    position: relative;
+    width: 128px;
+    height: 10px;
+    border-radius: 15px;
+    bottom: 85px;
+    right: 33px;
+}
+
+.base2 {
+    background-color: #333333;
+    position: relative;
+    width: 34px;
+    height: 10px;
+    border-radius: 15px;
+    bottom: 95px;
+    left: 88px;
+}
+
+.l1,
+.l2,
+.l3,
+.l4 {
+    height: 7px;
+    width: 8px;
+    background-color: #333333;
+    position: relative;
+}
+
+.l1 {
+    bottom: 96px;
+    right: 20px;
+}
+
+.l2 {
+    bottom: 103px;
+    left: 10px;
+}
+
+.l3 {
+    bottom: 110px;
+    left: 80px;
+}
+
+.l4 {
+    bottom: 117px;
+    left: 105px;
+}
+
+.toastl1 {
+    background-color: #cc8800;
+    height: 15px;
+    width: 59px;
+    border-radius: 15px;
+    position: relative;
+    bottom: 255px;
+    left: 24px;
+    z-index: -1;
+    animation: toast 4s infinite;
+}
+
+@keyframes toast{
+    50%{
+        transform: translateY(25px);
+    }
+    80%{
+       transform: translateY(-26px); 
+    }
+}
+
+.toastl2{
+    background-color: #cc8800;
+    height: 45px;
+    width: 52px;
+    position: relative;
+    top: 5px;
+    left: 2.8px;
+}
+
+.toastu1{
+    background-color: #ffd480;
+    height: 8px;
+    width: 51px;
+    border-radius: 15px;
+    position: relative;
+    bottom: 41px;
+    left: 4px;
+}
+
+.toastu2{
+    background-color: #ffd480;
+    height: 35px;
+    width: 42px;
+    position: relative;
+    bottom: 42px;
+    left: 7.7px;
+}
+
+.toastl3 {
+    background-color: #cc8800;
+    height: 15px;
+    width: 59px;
+    border-radius: 15px;
+    position: relative;
+    bottom: 275px;
+    right: 2px;
+    z-index: -1;
+    animation: toastt 4s infinite;
+}
+
+@keyframes toastt{
+    50%{
+        transform: translateY(25px);
+    }
+    83%{
+       transform: translateY(-30px); 
+    }
+}
+
+.toastl4{
+    background-color: #cc8800;
+    height: 45px;
+    width: 52px;
+    position: relative;
+    top: 5px;
+    left: 2.8px;
+}
+
+.toastu3{
+    background-color: #ffd480;
+    height: 8px;
+    width: 51px;
+    border-radius: 15px;
+    position: relative;
+    bottom: 41px;
+    left: 3px;
+}
+
+.toastu4{
+    background-color: #ffd480;
+    height: 35px;
+    width: 42px;
+    position: relative;
+    bottom: 41px;
+    left: 7.3px;
+}
